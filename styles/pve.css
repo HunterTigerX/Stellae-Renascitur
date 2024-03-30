@@ -18,3 +18,8 @@
     margin: 0 auto;
     text-align: center;
 }
+
+.materials-video {
+    /* height: auto; */
+    height: 375px;
+}
