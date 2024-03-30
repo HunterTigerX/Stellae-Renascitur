@@ -1,0 +1,117 @@
+.blocks-wrapper {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* display: none; */
+}
+
+.two-blocks {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    gap: 15px;
+}
+
+.block-with-images {
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+}
+
+.image-block {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-text-block {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+    user-select: text;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font-family: 'PT Serif', 'Georgia', 'serif' !important;
+    font-size: 42px !important;
+    line-height: 124% !important;
+    word-break: break-word;
+    font-weight: 400;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.image_1 {
+    background-image: url(../assets/blocks-images/1.png)
+}
+.image_2 {
+    background-image: url(../assets/blocks-images/2.png)
+}
+.image_3 {
+    background-image: url(../assets/blocks-images/3.png)
+}
+.image_4 {
+    background-image: url(../assets/blocks-images/4.png)
+}
+
+.block_1 {
+    height: 340px;
+}
+
+.block_1 {
+    max-height: 320px;
+}
+
+.block_2 {
+    max-height: 355px;
+}
+
+.block_3 {
+    height: 405px;
+}
+.block_4 {
+    margin-top: 10px;
+    height: 355px;
+}
+.block_5 {
+    height: 10px;
+}
+.block_6 {
+    height: 10px;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* Adjust the height as needed */
+    overflow: hidden;
+    margin: 10px auto;
+    /* background-color: gray; */
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    /* background-repeat: no-repeat; */
+    object-fit: contain;
+    /* background-color: blue; */
+}
+
+.slide.active {
+    opacity: 1;
+}

@@ -1,0 +1,20 @@
+.pve-wrapper {
+    display: none;
+    flex-direction: column;
+}
+
+.pve-wrapper-blocks {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.pve-video-header {
+    text-align: center;
+}
+
+.pve-subheader {
+    width: 85%;
+    word-wrap: break-word;
+    margin: 0 auto;
+    text-align: center;
+}

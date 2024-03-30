@@ -1,0 +1,8 @@
+.faq-wrapper {
+    display: none;
+    flex-direction: column;
+}
+
+.rules-list {
+    font-size: larger;
+}

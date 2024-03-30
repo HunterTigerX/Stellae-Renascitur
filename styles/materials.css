@@ -1,0 +1,62 @@
+.materials-wrapper {
+    display: none;
+    flex-direction: column;
+}
+
+.external-site-image {
+    width: 80%;
+    max-width: 90%;
+    height: 30vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.materials-text-wrapper {
+    margin: 0 auto;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.materials-subheader {
+    width: 70%;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+.external-link-text {
+    color: white;
+    font-size: 30px;
+}
+
+.adam4eve {
+    background-image: url(../assets/pve/adam4eve.png);
+    height: 30vw;
+}
+
+.fuzzwork {
+    background-image: url(../assets/pve/fuzzwork.png);
+    height: 42vw;
+}
+
+.janice {
+    background-image: url(../assets/pve/janice.png);
+    height: 61vw;
+}
+
+.tycoon {
+    background-image: url(../assets/pve/tycoon.png);
+    height: 37vw;
+}
+
+.webtools {
+    background-image: url(../assets/pve/webtools.png);
+    height: 30vw;
+}
+
+.workbench {
+    background-image: url(../assets/pve/workbench.png);
+    height: 37vw;
+}
+

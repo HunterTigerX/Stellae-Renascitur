@@ -1,0 +1,64 @@
+:root {
+    --text-main-color: rgb(206, 200, 200);
+}
+
+div, p, span, a {
+    color: var(--text-main-color);
+    text-shadow: 2px 2px 2px black;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    box-sizing: border-box;
+    background-attachment: fixed !important;
+    background: #000;
+    color: #fff;
+    border: 0 solid transparent;
+    min-height: 50px;
+    position: relative;
+    background-image: url(../assets/backgrounds/main.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+h2 {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+    user-select: text;
+    overflow-wrap: break-word;
+    color: inherit;
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: 'PT Serif', 'Georgia', 'serif' !important;
+    font-size: 54px !important;
+    line-height: 124% !important;
+    font-weight: 400;
+    word-break: break-word;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.left {
+    align-items: center;
+    justify-content: start;
+}

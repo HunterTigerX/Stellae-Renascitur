@@ -1,0 +1,109 @@
+a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.footer {
+    /* display: none; */
+}
+
+.socials-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.socials-block-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.socials-text {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+    user-select: text;
+    overflow-wrap: break-word;
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: 'PT Serif', 'Georgia', 'serif' !important;
+    font-size: 24px !important;
+    line-height: 124% !important;
+    word-break: break-word;
+    font-weight: bold;
+    color: rgb(165, 167, 170);
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 210px;
+}
+
+.footer-logo {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.socials-logo-link-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.discord-logo {
+    background-image: url(../assets/logo/discord.png)
+}
+
+.footer-logo:hover {
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.teamspeak-logo {
+    background-image: url(../assets/logo/teamspeak.png)
+}
+
+.telegram-logo {
+    background-image: url(../assets/logo/telegram.png)
+}
+
+.skillpoints-logo {
+    background-image: url(../assets/logo/skill_points.png)
+}
+
+.last-text-wrapper {
+    margin-top: 40px;
+    display: flex;
+}
+
+.last-text-text {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+    user-select: text;
+    overflow-wrap: break-word;
+    text-align: left;
+    white-space: pre-wrap;
+    font-family: 'PT Serif', 'Georgia', 'serif' !important;
+    word-break: break-word;
+    font-weight: 400;
+    color: rgb(131, 132, 133);
+    font-size: 27px;
+    line-height: 200%;
+    box-sizing: border-box;
+}
