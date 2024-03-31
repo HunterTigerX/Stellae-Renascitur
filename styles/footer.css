@@ -9,6 +9,7 @@ a:hover {
 
 .socials-wrapper {
     width: 80%;
+    max-width: 900px;
     display: flex;
     flex-direction: row;
     margin: 10px auto;

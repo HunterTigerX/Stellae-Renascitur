@@ -6,10 +6,16 @@
 .pve-wrapper-blocks {
     width: 75%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pve-video-header {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
 }
 
 .pve-subheader {
@@ -17,9 +23,11 @@
     word-wrap: break-word;
     margin: 0 auto;
     text-align: center;
+
 }
 
 .materials-video {
     /* height: auto; */
+    max-width: 660px;
     height: 375px;
 }
