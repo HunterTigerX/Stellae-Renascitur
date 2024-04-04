@@ -11,12 +11,24 @@ ul {
 .header-logo-wrapper {
     margin-top: 0;
     width: 100%;
-    background-color: black;
+    /* background-color: black; */
     height: 19.8vw;
-    max-height: 300px;
+    /* max-height: 300px; */
+    max-height: 150px;
 }
 
 .header-logo {
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/corp-logo/SR-Master-Logo.png);
+    width: 100%;
+    background-repeat: repeat 3;
+    background-size: contain;
+    background-position: center top;
+    height: 100%;
+}
+
+/* .header-logo {
     margin: 0;
     padding: 0;
     background-image: url(../assets/header/full_9T0qsy5F.jpg);
@@ -25,7 +37,7 @@ ul {
     background-size: contain;
     background-position: center top;
     height: 100%;
-}
+} */
 
 .header-nav {
     width: auto;
