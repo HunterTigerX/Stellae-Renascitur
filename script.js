@@ -34,10 +34,10 @@ function restoreDisplays() {
 
 restoreDisplays();
 
-window.addEventListener("load", (e) => {
-  const video = document.querySelector(".ytp-cued-thumbnail-overlay-image");
-  console.log(video)
-});
+// window.addEventListener("load", (e) => {
+//   const video = document.querySelector(".ytp-cued-thumbnail-overlay-image");
+//   console.log(video)
+// });
 
 linkToMain.addEventListener("click", (e) => {
   main.style.display = "flex";
