@@ -22,7 +22,8 @@ ul {
     padding: 0;
     background-image: url(../assets/corp-logo/SR-Master-Logo.png);
     width: 100%;
-    background-repeat: repeat 3;
+    /* background-repeat: repeat 3; */
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center top;
     height: 100%;
